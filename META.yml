@@ -1,12 +1,12 @@
 ---
 name: autobox-List-Util
-version: 20090429
+version: 20090629
 author:
   - 'Chas. J. Owens IV <chas.owens@gmail.com>'
 abstract: bring the List::Util functions to autobox
 license: perl
 resources:
-  license: ~
+  license: http://dev.perl.org/licenses/
 build_requires:
   List::Util: 0
   Module::Load: 0
@@ -15,8 +15,8 @@ build_requires:
 provides:
   autobox::List::Util:
     file: lib/autobox/List/Util.pm
-    version: 20090429
-generated_by: Module::Build version 0.32
+    version: 20090629
+generated_by: Module::Build version 0.33
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
